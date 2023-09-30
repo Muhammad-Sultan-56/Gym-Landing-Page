@@ -1,0 +1,744 @@
+
+/* Responsiveness on medium devices 850px */
+
+@media screen and (max-width:900px) {
+
+    
+
+    /* Header Section Starts here... */
+
+    header {
+        width: 100%;
+        height: 90vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+          url(img/pexels-roman-odintsov-4553611.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      nav {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .brand a {
+        border: 2px solid orange;
+        padding: 8px 14px;
+        border-radius: 25px;
+        text-decoration: none;
+        color: white;
+        box-shadow: 0px 0px 7px white;
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+    .menu ul{
+        margin-top: 35px;
+    }
+      .menu ul li {
+        list-style: none;
+        display: inline;
+        margin: 8px;
+      }
+      .menu ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 12px 10px;
+        font-size: 1rem;
+      }
+
+      
+      .intro {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: white;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 10px;
+      }
+      .intro h1 {
+        font-size: 2rem;
+      }
+  
+      .intro p {
+        font-size: 1rem;
+        margin: 10px;
+        margin-bottom: 25px;
+      }
+      .login {
+        text-decoration: none;
+        border: 1px solid orange;
+        border-radius: 8px;
+        color: orange;
+        font-size: 1rem;
+        padding: 8px 15px;
+      }
+    
+
+      /* About Section Starts here... */
+
+
+      .about{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .about-intro{
+        width: 100%;
+        margin: 10px;
+      }
+      .about-container h1{
+        font-size: 2.3rem;
+        margin: 10px;
+        color: orange;
+        text-align: center;
+      }
+      .about-intro p{
+        text-align: justify;
+        line-height: 1.2;
+        font-size: 1rem;
+      }
+      .about-img{
+        width: 100%;
+        height: 100vh;
+        background: url(img/about.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin:  10px;
+      }
+
+
+/* Why Choose us Section Starts here... */
+.add-container{
+    margin: 10px 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right , rgb(255, 166, 1)  , rgb(255, 223, 165) );
+  }
+
+.why{
+    width: 60%;
+    color: white;
+    padding: 30px;
+    }
+    .why h2{
+        font-size: 0.9rem;
+    }
+    .why h1{
+      font-size: 2rem;
+    }
+    .why p{
+      margin: 8px;
+      font-size: 1rem;
+      line-height: 1.1;
+      text-align: justify;
+    }
+    .why-img img{
+      width: 270px;
+      height: 400px;
+    }
+    .qulities{
+      margin-top: 20px;
+      text-align: center;
+    }
+    .qul{
+     box-shadow: 1px 1px 3px white; 
+     width: 40%;
+     cursor: pointer;
+    }
+    
+    .members{
+      float: left;
+      margin-top: 10px;
+      padding: 7px;
+      background-color: white;
+      color: orange;
+    }
+    .trainers{
+      float: right;
+      padding: 7px;
+      background-color: white;
+      color: orange;
+    }
+    .access{
+      float: left;
+      clear: both;
+      margin-top: 15px;
+      padding: 7px;
+      background-color: white;
+      color: orange;
+    }
+    .training{
+      float: right;
+      padding: 7px;
+      margin-top: 10px;
+      background-color: white;
+      color: orange;
+    }
+    .members:hover , .trainers:hover , .access:hover , .training:hover{
+     background-color: rgb(255, 228, 177);
+     border: solid 0.5px white;
+    }
+
+      /* Plans Section Starts here... */
+
+
+      .plans-container{
+        margin: 15px 20px;
+        padding: 15px;
+      }
+
+      .plans{
+        margin: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        }
+
+        .basic{
+            width: 100%;
+            padding: 20px 50px;
+            border: solid 1px orange;
+            border-radius: 25px;
+            box-shadow: 1px 1px 5px orange;
+            transition: transform 0.5s;
+            margin: 30px;
+          }
+          .pro{
+            width: 100%;
+            margin: 30px;
+            padding: 20px 50px;
+            border: solid 1px orange;
+            border-radius: 25px;
+            box-shadow: 1px 1px 5px orange;
+            transition: transform 0.5s;
+          
+          }
+          .premium{
+            margin: 30px;
+            width: 100%;
+            padding: 20px;
+            border: solid 1px orange;
+            border-radius: 25px;
+            box-shadow: 1px 1px 5px orange;
+            transition: transform 0.5s;
+          
+          }
+
+
+/* Contact us Section Starts here.... */
+
+
+          .contact-container{
+            margin: 10px 30px;
+            padding: 20px;
+          }
+          .contact-container h1{
+            text-align: center;
+            color: orange;
+          }
+          .contact{
+            margin: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          }
+          .contact-info{
+            width:100% ;
+            height: 70vh;
+            padding: 10px;
+            background-color: orange;
+          }
+          .contact-info table{
+            color: white;
+            margin: auto;
+            font-size: 1.1rem;
+          }
+          #cont-heading{
+            color: white;
+            margin: 20px auto;
+          }
+          .contact-data{
+            width: 100%;
+            height: 70vh;
+            padding: 40px;
+            background-color: rgb(238, 238, 238);
+          }
+          .contact-data p{
+            text-align: center;
+            font-size: 17px;
+            line-height: 1.4;
+          
+          }
+          .contact-data table input{
+            border: 2px solid orange;
+            padding: 8px;
+            width: 100%;
+          }
+          .contact-data textarea{
+            border: 2px solid orange;
+            width: 100%;
+            height: 20vh;
+          }
+          .contact-data table button{
+            background-color: orange;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            margin-left:210px ;
+          }
+          .contact-data table button:hover{
+            background-color: black;
+            color: white;
+          }
+
+
+          /* footer Section Starts here... */
+
+
+          footer{
+            width: 100%;
+            height: 40vh;
+            padding: 20px 40px;
+            background-color: orange;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+          }
+          .supfit{
+            width: 60%;
+            padding: 8px;
+            
+          }
+          .supfit h1{
+            border: 2px solid orange;
+            padding: 6px 10px;
+            display: inline-block;
+            border-radius: 25px;
+            text-decoration: none;
+            color: white;
+            box-shadow: 0px 0px 7px white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 4px auto;
+          }
+          .supfit p{
+            color: white;
+            font-size: 1rem;
+            line-height: 26px;
+            text-align: justify;
+            margin: 8px auto;
+          }
+          .flinks{
+            width: 35%;
+            color: white;
+            padding: 10px;
+            
+          }
+          .flinks h1{
+            font-size: 1.5rem;
+          }
+          .flinks li{
+            list-style: none;
+            margin: 7px;
+          }
+          .flinks li a{
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+          }
+          .last{
+            width: 100%;
+            background-color: black;
+            color: white;
+            padding: 13px;
+             font-size: 1rem;
+            text-align: center;  
+          }
+}
+
+
+
+
+
+
+
+
+/* For Small Devices Like 480px (Mobiles) */
+
+
+@media screen and (max-width:500px) {
+
+
+
+  /* Header Section Starts here... */
+
+  header {
+      width: 100%;
+      height: 100vh;
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(img/pexels-roman-odintsov-4553611.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    nav {
+      width: 100%;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .brand a {
+      border: 2px solid orange;
+      padding: 8px 14px;
+      border-radius: 25px;
+      text-decoration: none;
+      color: white;
+      box-shadow: 0px 0px 7px white;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  .menu ul{
+      margin-top: 35px;
+  }
+    .menu ul li {
+      list-style: none;
+      display: inline;
+      margin: 8px;
+    }
+    .menu ul li a {
+      text-decoration: none;
+      color: white;
+      padding: 12px 10px;
+      font-size: 0.8rem;
+    }
+
+    
+    .intro {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: white;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      padding: 10px;
+    }
+    .intro h1 {
+      font-size: 2rem;
+    }
+
+    .intro p {
+      font-size: 1rem;
+      margin: 10px;
+      margin-bottom: 25px;
+    }
+    .login {
+      text-decoration: none;
+      border: 1px solid orange;
+      border-radius: 8px;
+      color: orange;
+      font-size: 1rem;
+      padding: 8px 15px;
+    }
+  
+
+    /* About Section Starts here... */
+
+
+    .about{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .about-intro{
+      width: 100%;
+      margin: 10px;
+    }
+    .about-container h1{
+      font-size: 2.3rem;
+      margin: 10px;
+      color: orange;
+      text-align: center;
+    }
+    .about-intro p{
+      text-align: justify;
+      line-height: 1.2;
+      font-size: 1rem;
+    }
+    .about-img{
+      width: 100%;
+      height: 100vh;
+      background: url(img/about.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin:  10px;
+    }
+
+
+/* Why Choose us Section Starts here... */
+.add-container{
+  margin: 10px 60px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: linear-gradient(to right , rgb(255, 166, 1)  , rgb(255, 223, 165) );
+}
+
+.why{
+  width: 100%;
+  color: white;
+  padding: 30px;
+  }
+  .why h2{
+      font-size: 0.9rem;
+  }
+  .why h1{
+    font-size: 2rem;
+  }
+  .why p{
+    margin: 8px;
+    font-size: 1rem;
+    line-height: 1.1;
+    text-align: justify;
+  }
+  .why-img img{
+    margin-left: 33px;
+    width: 270px;
+    height: 400px;
+  }
+  .qulities{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .qul{
+   box-shadow: 1px 1px 3px white; 
+   width: 40%;
+   cursor: pointer;
+  }
+  
+  .members{
+    float: left;
+    margin-top: 10px;
+    padding: 7px;
+    background-color: white;
+    color: orange;
+  }
+  .trainers{
+    float: right;
+    padding: 7px;
+    background-color: white;
+    color: orange;
+  }
+  .access{
+    float: left;
+    clear: both;
+    margin-top: 15px;
+    padding: 7px;
+    background-color: white;
+    color: orange;
+  }
+  .training{
+    float: right;
+    padding: 7px;
+    margin-top: 10px;
+    background-color: white;
+    color: orange;
+  }
+  .members:hover , .trainers:hover , .access:hover , .training:hover{
+   background-color: rgb(255, 228, 177);
+   border: solid 0.5px white;
+  }
+
+    /* Plans Section Starts here... */
+
+
+    .plans-container{
+      margin: 15px 20px;
+      padding: 15px;
+    }
+
+    .plans{
+      margin: 20px 10px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      }
+
+      .basic{
+          width: 100%;
+          padding: 20px 50px;
+          border: solid 1px orange;
+          border-radius: 25px;
+          box-shadow: 1px 1px 5px orange;
+          transition: transform 0.5s;
+          margin: 30px;
+        }
+        .pro{
+          width: 100%;
+          margin: 30px;
+          padding: 20px 50px;
+          border: solid 1px orange;
+          border-radius: 25px;
+          box-shadow: 1px 1px 5px orange;
+          transition: transform 0.5s;
+        
+        }
+        .premium{
+          margin: 30px;
+          width: 100%;
+          padding: 20px;
+          border: solid 1px orange;
+          border-radius: 25px;
+          box-shadow: 1px 1px 5px orange;
+          transition: transform 0.5s;
+        
+        }
+
+
+/* Contact us Section Starts here.... */
+
+
+        .contact-container{
+          margin: 10px 30px;
+          padding: 20px;
+        }
+        .contact-container h1{
+          text-align: center;
+          color: orange;
+          font-size: 1.6rem;
+        }
+        .contact{
+          margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+        .contact-info{
+          width:100% ;
+          height: 70vh;
+          padding: 8px;
+          background-color: orange;
+        }
+        .contact-info table{
+          color: white;
+          margin: auto;
+          font-size: 1rem;
+        }
+        #cont-heading{
+          color: white;
+          margin: 20px auto;
+        }
+        .contact-data{
+          width: 100%;
+          height: 70vh;
+          padding: 40px;
+          background-color: rgb(238, 238, 238);
+        }
+        .contact-data p{
+          text-align: center;
+          font-size: 17px;
+          line-height: 1.2;
+        
+        }
+        .contact-data table input{
+          border: 2px solid orange;
+          padding: 8px;
+          width: 100%;
+          
+        }
+        .contact-data textarea{
+          border: 2px solid orange;
+          width: 100%;
+          height: 20vh;
+        }
+        .contact-data table button{
+          background-color: orange;
+          border: none;
+          padding: 8px 15px;
+          color: white;
+          font-size: 1rem;
+          margin: auto;
+          border-radius: 8px;
+          
+        }
+        .contact-data table button:hover{
+          background-color: black;
+          color: white;
+        }
+
+
+        /* footer Section Starts here... */
+
+
+        footer{
+          width: 100%;
+          height: 40vh;
+          padding: 20px 40px;
+          background-color: orange;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+        .supfit{
+          width: 100%;
+          padding: 8px;
+          
+        }
+        .supfit h1{
+          border: 2px solid orange;
+          padding: 6px 10px;
+          display: inline-block;
+          border-radius: 25px;
+          text-decoration: none;
+          color: white;
+          box-shadow: 0px 0px 7px white;
+          font-size: 1rem;
+          font-weight: bold;
+          margin: 4px auto;
+        }
+        .supfit p{
+          color: white;
+          font-size: 1rem;
+          line-height: 26px;
+          text-align: justify;
+          margin: 8px auto;
+        }
+        .flinks{
+          width: 100%;
+          color: white;
+          padding: 10px;
+          
+        }
+        .flinks h1{
+          font-size: 1rem;
+        }
+        .flinks li{
+          list-style: none;
+          margin: 7px;
+        }
+        .flinks li a{
+          text-decoration: none;
+          color: white;
+          font-size: 1rem;
+        }
+        .last{
+          width: 100%;
+          background-color: black;
+          color: white;
+          padding: 13px;
+           font-size: 1rem;
+          text-align: center;  
+        }
+}

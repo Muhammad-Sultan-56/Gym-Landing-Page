@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Super Fit</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+
+  <body>
+
+    <!-- Navbar Start -->
+    <nav>
+      <div class="brand">
+        <a href="#">Super <span>Fit</span></a>
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Membership Plans</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+<!-- Header Start -->
+
+    <header>
+    
+
+      <div class="intro">
+        <h1>Welcome to <span>Super Fit Gym</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam rem
+          voluptate eaque? Nostrum, est aperiam minima necessitatibus, eaque
+          officia repellendus, dolorum architecto blanditiis ratione omnis alias
+          dolore fugiat.
+        </p>
+        <a href="#" class="login" onclick="openModal()">Login</a>
+      </div>
+
+      <!-- Login Modal -->
+
+      <div class="modal">
+        <h1>User Login</h1>
+        <span class="cross" onclick="closeModal()">&times;</span>
+        <form action="">
+          <input type="text" placeholder="Username" id="name" />
+          <p id="name-err" class="err"></p>
+          <input type="password" placeholder="Password" id="pass" />
+          <p id="pass-err" class="err"></p>
+          <input
+            type="submit"
+            value="Login"
+            class="btn"
+            onclick="return Validation()"
+          />
+          <p class="create">To Create Account <a href="#">Click here</a></p>
+        </form>
+      </div>
+    </header>
+
+    <!-- About Us -->
+
+    <div class="about-container">
+      <h1>About Us</h1>
+      <div class="about">
+        <div class="about-intro">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Accusantium quae quaerat quisquam harum doloribus atque, tempora
+            aliquid eaque maxime aperiam non nobis. Necessitatibus, temporibus
+            dolorem! Beatae, sit recusandae, perspiciatis dicta veniam quibusdam
+            dolorem eveniet hic, unde provident eius doloremque dolore ut
+            tempora commodi nemo maiores magnam tenetur tempore doloribus
+            sapiente. Alias deserunt ad optio, expedita corporis quidem debitis
+            cumque corrupti blanditiis magni odit. Animi nesciunt voluptatum
+            sint natus veniam et eveniet magni esse deleniti alias ipsa, dolore
+            modi molestias eaque at molestiae doloribus reiciendis, nam itaque
+            minus quas dolor porro. Repudiandae ab quibusdam mollitia
+       
+          </p>
+        </div>
+
+        <div class="about-img"></div>
+      </div>
+    </div>
+
+<!-- Services -->
+
+    <div class="services-container">
+      <h1>Our <span> Services</span></h1>
+      <div class="all-services">
+        <div class="service">
+          <img src="img/aquiments.jpg" alt="" />
+          <h3>Best Eauipments</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio
+            deserunt asperiores vel eligendi? Debitis praesentium iure explicabo
+            ducimus.
+          </p>
+        </div>
+        <div class="service">
+          <img src="img/locker.jpg" alt="" />
+          <h3>Private Lockers</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            laborum, molestias nulla dolorem eveniet provident doloremque
+            accusantium labore!
+          </p>
+        </div>
+        <div class="service">
+          <img src="img/trainer.jpg" alt="" />
+          <h3>Best Trainers</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            deserunt porro veniam inventore, asperiores maxime reiciendis qui
+            dolor.
+          </p>
+        </div>
+        <div class="service">
+          <img src="img/sports practice.jpg" alt="" />
+          <h3>Sports Practices</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quis
+            sed quasi iste sapiente ducimus esse eligendi praesentium?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Why Choose Us -->
+
+    <div class="add-container">
+      <div class="why">
+        <h1>Why Choose Us!</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque rerum
+          earum impedit blanditiis quis itaque, iure odit repellat voluptatibus,
+          recusandae, nam explicabo quia corporis ut.
+        </p>
+        <div class="qulities">
+          <div class="members qul">
+            <h2>1000+</h2>
+            <h2>Members</h2>
+          </div>
+          <div class="trainers qul">
+            <h2>25</h2>
+            <h2>Trainers</h2>
+          </div>
+          <div class="access qul">
+            <h2>24/7</h2>
+            <h2>Access</h2>
+          </div>
+          <div class="training qul">
+            <h2>10+</h2>
+            <h2>Sports Training</h2>
+          </div>
+        </div>
+      </div>
+      <div class="why-img">
+        <img src="img/add.png" alt="" />
+      </div>
+    </div>
+
+<!-- Membership Plans -->
+
+    <div class="plans-container">
+        <h1>Membership Plans</h1>
+        <div class="plans">
+            <div class="basic">
+                <h2>Basic $50 Monthly</h2>
+                <ul>
+                    <li>Group Trainer</li>
+                    <li>Personal Locker</li>
+                    <li>Access all Areas</li>
+                    <li>Group Classes</li>
+                    <li>Anytime Access</li>
+                    <li>Dedicated Free Parking</li>
+                </ul>
+                <button class="plans-btn">Signup Now</button>
+
+            </div>
+            <div class="pro">
+                <h2>Pro $100 Monthly</h2>
+                <ul>
+                    <li>Personal Trainer</li>
+                    <li>Personal Locker</li>
+                    <li>Individual Sessions</li>
+                    <li>Access all Areas</li>
+                    <li>Anytime Access</li>
+                    <li>Dedicated Free Parking</li>
+                </ul>
+                <button class="plans-btn">Signup Now</button>
+            </div>
+            <div class="premium">
+                <h2>Premium $400 Monthly</h2>
+                <ul>
+                    <li>Personal Trainer</li>
+                    <li>Personal Locker</li>
+                    <li>Individual Sessions</li>
+                    <li>Spa Services</li>
+                    <li>Sports Training</li>
+                    <li>Dedicated Free Parking</li>
+                </ul>
+                <button class="plans-btn">Signup Now</button>
+
+            </div>
+        </div>
+    </div>
+  
+
+    <!-- Contact Us -->
+<div class="contact-container">
+    <h1>Contact Us</h1>
+    <div class="contact">
+        <div class="contact-info">
+         <h1 id="cont-heading">Contact Information</h1>
+         <table align="center"  width="90%" cellspacing="15">
+          <tr>
+            <td>Phone :</td>
+            <td>08752-0987654398</td>
+          </tr>
+          <tr>
+            <td>Email :</td>
+            <td>superfit@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Location:</td>
+            <td>
+              Ma-Sha-Allah Plaza, opp. Govt College, Lodhran
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3472.245069235794!2d71.6324364729961!3d29.50921508893615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b9f1bc79afc67%3A0xabbf84fb0c1fd385!2sTareen%20Institute%20of%20Computer%20Education%20%26%20Resources%20(TICER)!5e0!3m2!1sen!2s!4v1687580783598!5m2!1sen!2s" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </td>
+          </tr>
+         </table>
+        </div>
+
+
+        <div class="contact-data">
+          <p>For any Problem or Suggestion you will contact us and we asure to Support you as soon as Possible</p>
+          
+          <table  width="90%" cellspacing="15">
+            <tr>
+              <td  colspan="2">
+                <input type="text" placeholder="First Name">
+              </td>
+            </tr>
+              <tr>
+                <td colspan="2">
+                  <input type="email" placeholder="Email">
+                </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <textarea  placeholder="type here...">
+
+                </textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <button type="submit">Submit</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+    </div>
+</div>
+
+<footer>
+<div class="supfit">
+<h1>Super fit</h1>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni commodi velit quo cum consectetur voluptatem, quae officiis aliquam. Velit mollitia voluptas iure aliquam a totam unde at, debitis atque sit. This is footer and the 
+  site is complete now.
+</p>
+</div>
+<div class="flinks">
+<h1>Other Links</h1>
+<ul>
+  <li><a href="#">More Plans</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Logout</a></li>
+  <li><a href="#">Follow us on </a></li>
+  <li><a href="#"><img src="img/social.png" alt="Image not found" width="120px"></a></li>
+</ul>
+</div>
+</footer>
+<div class="last">
+  <p style="float: left;"> Copyright@2023 </p>
+  <p style="float: right;">Developer :  Muhammad Sultan</p>
+</div>
+
+    <script src="function.js"></script>
+  </body>
+</html>
